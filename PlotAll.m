@@ -17,5 +17,4 @@ for plotID = 0:numOfplots-1
     ylabel(Labels{mod(plotID,numOfplots/num_cols)+1}) % Select labels for Y AXIS
 end
 end
-%This function takes in two arguments; a matrix consisting of independent and dependent variable (x1, x2, ...,xn,y) and a row vector of type cell that contains the name of the column in 'String' format. It creates a subplot that stores the total possible plots (permutation with repetition) of columns vectors in data. Each subplot contains the x-axis and y-axis labels, respectively, taken from the cell 'Labels'. 
-
+%
